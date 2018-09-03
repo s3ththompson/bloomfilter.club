@@ -55,10 +55,6 @@ function view (state, emit) {
           <td class="vat">Marquis Hawkes</td>
         </tr>
         <tr>
-          <td class="vat hang-indent">+ Blind (Frankie Knuckles Remix)</td>
-          <td class="vat">Hercules And Love Affair</td>
-        </tr>
-        <tr>
           <td class="vat  hang-indent">+ Wondering Mind</td>
           <td class="vat">Falty DL</td>
         </tr>
@@ -73,10 +69,6 @@ function view (state, emit) {
         <tr>
           <td class="vat hang-indent">+ Untitled 02</td>
           <td class="vat">Unknown Artist</td>
-        </tr>
-        <tr>
-          <td class="vat hang-indent">+ Opal (Four Tet Remix)</td>
-          <td class="vat">Bicep</td>
         </tr>
         <tr>
           <td class="vat hang-indent">+ Hunna</td>
