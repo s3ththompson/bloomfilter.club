@@ -26,7 +26,7 @@ function view (state, emit) {
       <main class="p1">
         <header class="lg-psf lg-t0 lg-pt1">
           <h1 class="c-black"><a href="/" class="c-yellow tdn" >Bloom Filter</a> 9/1/18 @ Partners, New Haven (Live)</h1>
-          <h2 class="c-pink"><a href="#" class="${state.label == 'Pause' ? 'blink': ''}" onclick=${toggle}>${state.label}</a>, <a href="/assets/Bloom_Filter-9_1_18.mp3" download="Bloom Filter 9-1-18">Download</a>, <a href="https://soundcloud.com/bloomfilter/9118-partners-new-haven-live"  target="_blank" rel="noopener noreferrer">Soundcloud</a></h2>
+          <h2 class="c-pink"><button class="${state.label == 'Pause' ? 'blink': ''}" onclick=${toggle}>${state.label}</button>, <a href="/assets/Bloom_Filter-9_1_18.mp3" download="Bloom Filter 9-1-18">Download</a>, <a href="https://soundcloud.com/bloomfilter/9118-partners-new-haven-live"  target="_blank" rel="noopener noreferrer">Soundcloud</a></h2>
         </header>
         <h3 class="${offset}">Tracklist</h3>
         <table>

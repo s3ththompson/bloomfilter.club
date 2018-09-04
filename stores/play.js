@@ -25,5 +25,10 @@ module.exports = function store (state, emitter) {
       }
       emitter.emit('render')
     })
+    emitter.on(state.events.NAVIGATE, function () {
+      state.label = 'Play'
+      playing = false
+      emitter.emit('render')
+    })
   })
 }
