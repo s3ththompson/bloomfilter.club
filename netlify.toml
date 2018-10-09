@@ -1,0 +1,15 @@
+[Settings]
+  ID = "692b845a-8d28-453f-9ab6-16b114661e5b"
+
+[build]
+  publish = "dist/"
+
+[[redirects]]
+  from = "/files/*"
+  to = "https://bloom-filter.s3.amazonaws.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
