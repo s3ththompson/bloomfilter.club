@@ -5,7 +5,7 @@ var background = require('../elements/background')
 var Embed = require('../components/embed')
 var embed = new Embed()
 
-var TITLE = 'Bloom Filter – 9/1/18'
+var TITLE = 'Bloom Filter – 10/6/18'
 
 var offset = css`
   @media (min-width: 1280px) {
