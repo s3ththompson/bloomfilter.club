@@ -16,6 +16,7 @@ app.route('/5-15-18', require('./views/5-15-18'))
 app.route('/9-1-18', require('./views/9-1-18'))
 app.route('/10-6-18', require('./views/10-6-18'))
 app.route('/10-26-18', require('./views/10-26-18'))
+app.route('/4-6-19', require('./views/4-6-19'))
 app.route('/*', require('./views/404'))
 
 module.exports = app.mount('body')
