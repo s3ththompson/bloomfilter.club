@@ -27,7 +27,7 @@ function pageLayout(options) {
   var mp3 = options.mp3
   var flac = options.flac
   var filename = options.filename
-  var soundcloud = soundcloud
+  var soundcloud = options.soundcloud
   var embedLink = options.embed
   var tracks = options.tracks
   var state = options.state
